@@ -127,6 +127,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeguimientoOC.resx">
       <DependentUpon>SeguimientoOC.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
