@@ -1,4 +1,6 @@
-﻿Imports System.Runtime.InteropServices
+
+Imports System.Runtime.InteropServices
+
 Public Class Form1
     Public Conex As New ADODB.Connection
     Public CONEXCRYSREPOR As String
@@ -34,7 +36,6 @@ Public Class Form1
     Private Sub Form1_MouseMove(sender As Object, e As MouseEventArgs) Handles MyBase.MouseMove
         ReleaseCapture()
         SendMessage(Me.Handle, &H112&, &HF012&, 0)
-        'hola eduardo esta es una prueba de mi coommit
     End Sub
 #End Region
 End Class
