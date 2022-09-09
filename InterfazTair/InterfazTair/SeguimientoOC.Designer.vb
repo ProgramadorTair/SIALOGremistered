@@ -24,10 +24,9 @@ Partial Class SeguimientoOC
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SeguimientoOC))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
         Me.btnMinimizar = New Guna.UI2.WinForms.Guna2ImageButton()
@@ -87,6 +86,7 @@ Partial Class SeguimientoOC
         Me.btnImprimir = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2Panel10 = New Guna.UI2.WinForms.Guna2Panel()
         Me.DGOC = New Guna.UI2.WinForms.Guna2DataGridView()
+        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Panel1.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
         Me.Guna2Panel3.SuspendLayout()
@@ -98,10 +98,6 @@ Partial Class SeguimientoOC
         Me.Guna2Panel10.SuspendLayout()
         CType(Me.DGOC, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Guna2Elipse1
-        '
-        Me.Guna2Elipse1.TargetControl = Me
         '
         'Guna2Panel1
         '
@@ -128,6 +124,7 @@ Partial Class SeguimientoOC
         'btnMinimizar
         '
         Me.btnMinimizar.CheckedState.ImageSize = New System.Drawing.Size(64, 64)
+        Me.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMinimizar.Dock = System.Windows.Forms.DockStyle.Right
         Me.btnMinimizar.HoverState.Image = CType(resources.GetObject("resource.Image"), System.Drawing.Image)
         Me.btnMinimizar.HoverState.ImageSize = New System.Drawing.Size(32, 32)
@@ -146,6 +143,7 @@ Partial Class SeguimientoOC
         'btnExit
         '
         Me.btnExit.CheckedState.ImageSize = New System.Drawing.Size(64, 64)
+        Me.btnExit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnExit.Dock = System.Windows.Forms.DockStyle.Right
         Me.btnExit.HoverState.Image = CType(resources.GetObject("resource.Image2"), System.Drawing.Image)
         Me.btnExit.HoverState.ImageSize = New System.Drawing.Size(32, 32)
@@ -526,6 +524,7 @@ Partial Class SeguimientoOC
         Me.btnExportarPDF.Animated = True
         Me.btnExportarPDF.AutoRoundedCorners = True
         Me.btnExportarPDF.BorderRadius = 12
+        Me.btnExportarPDF.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnExportarPDF.DefaultAutoSize = True
         Me.btnExportarPDF.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.btnExportarPDF.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -548,6 +547,7 @@ Partial Class SeguimientoOC
         Me.btnExportarExls.Animated = True
         Me.btnExportarExls.AutoRoundedCorners = True
         Me.btnExportarExls.BorderRadius = 12
+        Me.btnExportarExls.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnExportarExls.DefaultAutoSize = True
         Me.btnExportarExls.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.btnExportarExls.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -570,6 +570,7 @@ Partial Class SeguimientoOC
         Me.btnEstadoOC.Animated = True
         Me.btnEstadoOC.AutoRoundedCorners = True
         Me.btnEstadoOC.BorderRadius = 12
+        Me.btnEstadoOC.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnEstadoOC.DefaultAutoSize = True
         Me.btnEstadoOC.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.btnEstadoOC.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -592,6 +593,7 @@ Partial Class SeguimientoOC
         Me.btnCambiarAlm.Animated = True
         Me.btnCambiarAlm.AutoRoundedCorners = True
         Me.btnCambiarAlm.BorderRadius = 12
+        Me.btnCambiarAlm.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCambiarAlm.DefaultAutoSize = True
         Me.btnCambiarAlm.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.btnCambiarAlm.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -614,6 +616,7 @@ Partial Class SeguimientoOC
         Me.btnDetalleOC.Animated = True
         Me.btnDetalleOC.AutoRoundedCorners = True
         Me.btnDetalleOC.BorderRadius = 12
+        Me.btnDetalleOC.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnDetalleOC.DefaultAutoSize = True
         Me.btnDetalleOC.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.btnDetalleOC.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -636,6 +639,7 @@ Partial Class SeguimientoOC
         Me.btnBusqueda.Animated = True
         Me.btnBusqueda.AutoRoundedCorners = True
         Me.btnBusqueda.BorderRadius = 12
+        Me.btnBusqueda.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnBusqueda.DefaultAutoSize = True
         Me.btnBusqueda.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.btnBusqueda.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -1085,26 +1089,26 @@ Partial Class SeguimientoOC
         '
         'DGOC
         '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.DGOC.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DGOC.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
+        Me.DGOC.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGOC.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.DGOC.ColumnHeadersHeight = 4
         Me.DGOC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DGOC.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DGOC.DefaultCellStyle = DataGridViewCellStyle9
         Me.DGOC.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DGOC.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.DGOC.Location = New System.Drawing.Point(0, 0)
@@ -1134,6 +1138,10 @@ Partial Class SeguimientoOC
         Me.DGOC.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.DGOC.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         '
+        'Guna2Elipse1
+        '
+        Me.Guna2Elipse1.TargetControl = Me
+        '
         'SeguimientoOC
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1146,6 +1154,7 @@ Partial Class SeguimientoOC
         Me.Controls.Add(Me.Guna2Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "SeguimientoOC"
+        Me.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Text = "SeguimientoOC"
         Me.Guna2Panel1.ResumeLayout(False)
         Me.Guna2Panel4.ResumeLayout(False)
@@ -1163,8 +1172,6 @@ Partial Class SeguimientoOC
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
@@ -1224,4 +1231,5 @@ Partial Class SeguimientoOC
     Friend WithEvents Guna2HtmlLabel6 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents btnExit As Guna.UI2.WinForms.Guna2ImageButton
     Friend WithEvents btnMinimizar As Guna.UI2.WinForms.Guna2ImageButton
+    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
 End Class
