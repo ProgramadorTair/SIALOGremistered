@@ -23,6 +23,7 @@ Public Class Menulog
     Private Sub Guna2GradientButton7_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton7.Click
         SeguimientoOC.Show()
     End Sub
+
 #Region "Drag Form"
     <DllImport("user32.DLL", EntryPoint:="ReleaseCapture")>
     Private Shared Sub ReleaseCapture()

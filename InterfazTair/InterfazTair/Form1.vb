@@ -24,7 +24,6 @@ Public Class Form1
             Menulog.Show()
         End If
     End Sub
-
 #Region "Drag Form"
     <DllImport("user32.DLL", EntryPoint:="ReleaseCapture")>
     Private Shared Sub ReleaseCapture()
@@ -35,6 +34,7 @@ Public Class Form1
     Private Sub Form1_MouseMove(sender As Object, e As MouseEventArgs) Handles MyBase.MouseMove
         ReleaseCapture()
         SendMessage(Me.Handle, &H112&, &HF012&, 0)
+        'hola eduardo esta es una prueba de mi coommit
     End Sub
 #End Region
 End Class
