@@ -36,6 +36,7 @@ Public Class Form1
     Private Sub Form1_MouseMove(sender As Object, e As MouseEventArgs) Handles MyBase.MouseMove
         ReleaseCapture()
         SendMessage(Me.Handle, &H112&, &HF012&, 0)
+        'hola eduardo este es un commit de prueba
     End Sub
 #End Region
 End Class
