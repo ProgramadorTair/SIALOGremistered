@@ -27,6 +27,8 @@ Partial Class Menulog
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
         Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2GradientButton18 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2GradientButton17 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton16 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton15 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton14 = New Guna.UI2.WinForms.Guna2GradientButton()
@@ -70,8 +72,6 @@ Partial Class Menulog
         Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2ImageButton1 = New Guna.UI2.WinForms.Guna2ImageButton()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2GradientButton17 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton18 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientPanel1.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
         Me.Guna2Panel1.SuspendLayout()
@@ -125,6 +125,48 @@ Partial Class Menulog
         Me.Guna2Panel4.Name = "Guna2Panel4"
         Me.Guna2Panel4.Size = New System.Drawing.Size(280, 510)
         Me.Guna2Panel4.TabIndex = 2
+        '
+        'Guna2GradientButton18
+        '
+        Me.Guna2GradientButton18.Animated = True
+        Me.Guna2GradientButton18.AutoRoundedCorners = True
+        Me.Guna2GradientButton18.BorderRadius = 13
+        Me.Guna2GradientButton18.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton18.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton18.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton18.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton18.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton18.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Guna2GradientButton18.FillColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2GradientButton18.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.Guna2GradientButton18.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Guna2GradientButton18.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton18.Location = New System.Drawing.Point(0, 476)
+        Me.Guna2GradientButton18.Name = "Guna2GradientButton18"
+        Me.Guna2GradientButton18.Size = New System.Drawing.Size(280, 28)
+        Me.Guna2GradientButton18.TabIndex = 18
+        Me.Guna2GradientButton18.Text = "Pedidos"
+        '
+        'Guna2GradientButton17
+        '
+        Me.Guna2GradientButton17.Animated = True
+        Me.Guna2GradientButton17.AutoRoundedCorners = True
+        Me.Guna2GradientButton17.BorderRadius = 13
+        Me.Guna2GradientButton17.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton17.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton17.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton17.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton17.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton17.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Guna2GradientButton17.FillColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Guna2GradientButton17.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(220, Byte), Integer))
+        Me.Guna2GradientButton17.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Guna2GradientButton17.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton17.Location = New System.Drawing.Point(0, 448)
+        Me.Guna2GradientButton17.Name = "Guna2GradientButton17"
+        Me.Guna2GradientButton17.Size = New System.Drawing.Size(280, 28)
+        Me.Guna2GradientButton17.TabIndex = 17
+        Me.Guna2GradientButton17.Text = "Configuracion de Menus"
         '
         'Guna2GradientButton16
         '
@@ -807,48 +849,6 @@ Partial Class Menulog
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.Size = New System.Drawing.Size(801, 510)
         Me.Guna2Panel2.TabIndex = 2
-        '
-        'Guna2GradientButton17
-        '
-        Me.Guna2GradientButton17.Animated = True
-        Me.Guna2GradientButton17.AutoRoundedCorners = True
-        Me.Guna2GradientButton17.BorderRadius = 13
-        Me.Guna2GradientButton17.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton17.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton17.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton17.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton17.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton17.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2GradientButton17.FillColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Guna2GradientButton17.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(220, Byte), Integer))
-        Me.Guna2GradientButton17.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Guna2GradientButton17.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton17.Location = New System.Drawing.Point(0, 448)
-        Me.Guna2GradientButton17.Name = "Guna2GradientButton17"
-        Me.Guna2GradientButton17.Size = New System.Drawing.Size(280, 28)
-        Me.Guna2GradientButton17.TabIndex = 17
-        Me.Guna2GradientButton17.Text = "Configuracion de Menus"
-        '
-        'Guna2GradientButton18
-        '
-        Me.Guna2GradientButton18.Animated = True
-        Me.Guna2GradientButton18.AutoRoundedCorners = True
-        Me.Guna2GradientButton18.BorderRadius = 13
-        Me.Guna2GradientButton18.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton18.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton18.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton18.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton18.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton18.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2GradientButton18.FillColor = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Guna2GradientButton18.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(80, Byte), Integer), CType(CType(220, Byte), Integer))
-        Me.Guna2GradientButton18.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Guna2GradientButton18.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton18.Location = New System.Drawing.Point(0, 476)
-        Me.Guna2GradientButton18.Name = "Guna2GradientButton18"
-        Me.Guna2GradientButton18.Size = New System.Drawing.Size(280, 28)
-        Me.Guna2GradientButton18.TabIndex = 18
-        Me.Guna2GradientButton18.Text = "Pedidos"
         '
         'Menulog
         '
